@@ -1,0 +1,25 @@
+<mvc:View controllerName="sap.ui.demo.walkthrough.controller.HelloPanel" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+    <Panel headerText="Formulario:">
+        <Text text="Nombre:"/>
+        <Input name="nombre" placeholder="Nombre"/>
+
+        <Text text="Apellido:"/>
+        <Input name="apellido" placeholder="Apellido"/>
+
+        <Text text="Email:"/>
+        <Input name="email" placeholder="Email"/>
+
+        <Text text="DNI:"/>
+        <Input name="dni" placeholder="Dni"/>
+
+        
+
+        <Text text="Fecha de nacimiento:"/>
+        <DatePicker name="fechaNacimiento" placeholder="Fecha de nacimiento"/>
+        
+
+        <Button text="Enviar" press="onSubmit" icon="sap-icon://paper-plane"/>
+
+
+    </Panel>
+</mvc:View>
